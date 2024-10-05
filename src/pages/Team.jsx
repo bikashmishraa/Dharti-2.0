@@ -20,7 +20,7 @@ const Team = () => {
                   className="w-full h-80 bg-center bg-cover bg-no-repeat rounded-lg shadow-lg"
                   style={{ backgroundImage: `url(${team.image})` }}
                 ></div>
-                <div className="text-center">
+                <div className="text-center space-y-2">
                   <h3 className="text-lg font-medium text-primary">
                     {team.name}
                   </h3>

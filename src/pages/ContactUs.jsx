@@ -1,56 +1,93 @@
-import React from "react";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdMail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <>
-      <div className="section-wrapper hero bg-base-200 min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Login now!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-          </div>
-          <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-            <form className="card-body">
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Email</span>
-                </label>
-                <input
-                  type="email"
-                  placeholder="email"
-                  className="input input-bordered"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Password</span>
-                </label>
-                <input
-                  type="password"
-                  placeholder="password"
-                  className="input input-bordered"
-                  required
-                />
-                <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
-                    Forgot password?
-                  </a>
-                </label>
-              </div>
-              <div className="form-control mt-6">
-                <button className="btn btn-primary">Login</button>
-              </div>
-            </form>
-          </div>
+    <section className="section-wrapper flex-center">
+      <div className="space-y-5">
+        <div className="space-y-3">
+          <h2 className="text-3xl font-semibold">Contact Us</h2>
+          <p className="text-lg">
+            Get in touch with us for any inquiries or support. We're here to
+            help and would love to hear from you."
+          </p>
         </div>
+
+        <form className="space-y-1">
+          <label className="form-control w-full">
+            <div className="label">
+              <span className="label-text">Name</span>
+            </div>
+            <input
+              type="text"
+              placeholder="Enter you name"
+              className="input input-bordered w-full"
+            />
+          </label>
+          <label className="form-control w-full">
+            <div className="label">
+              <span className="label-text">Email</span>
+            </div>
+            <input
+              type="email"
+              placeholder="Enter you email"
+              className="input input-bordered w-full"
+            />
+          </label>
+          <label className="form-control w-full pb-3">
+            <div className="label">
+              <span className="label-text">Message</span>
+            </div>
+            <textarea
+              className="textarea textarea-bordered h-24 "
+              placeholder="Enter your message"
+            ></textarea>
+          </label>
+          <button type="submit" className="btn btn-primary text-[white]">
+            Get Started
+          </button>
+        </form>
+
+        <ul className="contact-list">
+          <li>
+            <span>
+              <FaLocationDot />
+            </span>
+            Kathmandu, Nepal
+          </li>
+          <li>
+            <span>
+              <MdMail />
+            </span>
+            <a href="">example@mail.com</a>
+          </li>
+          <li>
+            <span>
+              <FaPhoneAlt />
+            </span>
+            <a href="">98 12345678</a>
+          </li>
+        </ul>
       </div>
-    </>
+    </section>
   );
 };
+
+// "Get in touch with us for any inquiries or support. We're here to help and would love to hear from you."
+
+/*
+<label className="form-control w-full max-w-xs">
+  <div className="label">
+    <span className="label-text">What is your name?</span>
+    <span className="label-text-alt">Top Right label</span>
+  </div>
+  <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+  <div className="label">
+    <span className="label-text-alt">Bottom Left label</span>
+    <span className="label-text-alt">Bottom Right label</span>
+  </div>
+</label>
+*/
 
 export default ContactUs;
