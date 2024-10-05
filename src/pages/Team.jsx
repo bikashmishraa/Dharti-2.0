@@ -1,5 +1,5 @@
 import teamData from "../data/team/team.json";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa6";
 
 const Team = () => {
   return (
@@ -38,6 +38,11 @@ const Team = () => {
                     <li>
                       <a href={team.social.facebook}>
                         <FaFacebook />
+                      </a>
+                    </li>
+                    <li>
+                      <a href={team.social.github}>
+                        <FaGithub />
                       </a>
                     </li>
                   </ul>
