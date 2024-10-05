@@ -1,4 +1,6 @@
 import React from "react";
+import { NAV_LINKS } from "@/constants";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,21 +10,13 @@ const Header = () => {
       </div>
       <div className="flex-none px-[20px]">
         <ul className="menu menu-horizontal text-base px-1">
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>Data Visualization</a>
-          </li>
-          <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a>Team</a>
-          </li>
-          <li>
-            <a href="">Contact Us</a>
-          </li>
+          {NAV_LINKS.map((link, idx) => (
+            <li key={idx} className="capitalize">
+              <Link to={link.ref} className="focus:text-neutral-content">
+                {link.title}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
