@@ -1,3 +1,24 @@
 .section-wrapper {
-  @apply w-full min-h-screen px-2 py-28;
+  background-image: url("../assets/hero-bg.png");
+  @apply min-h-screen size-full py-28;
+
+  & > div {
+    @apply md:max-w-6xl w-full mx-auto px-3;
+  }
+}
+
+.contact-list {
+  @apply space-y-2;
+
+  & li {
+    @apply flex items-center gap-2 text-lg;
+
+    a {
+      @apply hover:underline;
+    }
+
+    span {
+      @apply text-xl;
+    }
+  }
 }

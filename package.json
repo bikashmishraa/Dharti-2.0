@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,7 +17,9 @@
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.2",
     "recharts": "^2.12.7",
-    "sass": "^1.79.4"
+    "sass": "^1.79.4",
+    "@cubejs-client/core": "^0.31.0",
+    "chart.js": "^4.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
@@ -32,6 +35,8 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
-    "vite": "^5.4.8"
+    "vite": "^5.4.8",
+    "parcel": "^2.6.2"
   }
 }
+

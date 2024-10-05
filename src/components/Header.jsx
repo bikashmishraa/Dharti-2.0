@@ -1,12 +1,13 @@
-import React from "react";
 import { NAV_LINKS } from "@/constants";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="navbar bg-primary text-neutral-content fixed ">
+    <div className="navbar bg-primary text-neutral-content fixed z-10">
       <div className="flex-1">
-        <a className="btn btn-ghost text-3xl font-semibold">Dharti</a>
+        <Link to={"/"} className="btn btn-ghost text-3xl font-semibold">
+          Dharti
+        </Link>
       </div>
       <div className="flex-none px-[20px]">
         <ul className="menu menu-horizontal text-base px-1">
