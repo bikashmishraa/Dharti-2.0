@@ -4,44 +4,49 @@
     "name": "Bikash Chandra Mishra",
     "social": {
       "instagram": "",
-      "facebook": "",
-      "linkedin": ""
+      "facebook": "https://www.facebook.com/bikashmishra11",
+      "linkedin": "https://www.linkedin.com/in/bikash-mishra2079/",
+      "github": "https://github.com/bikashmishraa/"
     }
   },
   {
     "image": "team-05.jpg",
     "name": "Dhirendra Pd. Upadhyay",
     "social": {
-      "instagram": "",
-      "facebook": "",
-      "linkedin": ""
+      "instagram": "https://www.instagram.com/dhiren_draa/",
+      "facebook": "https://www.facebook.com/dhirendra.upadhyay.9210",
+      "linkedin": "https://www.linkedin.com/in/dhirendra-upadhyay-311a28316/",
+      "github": "https://github.com/Dhirendra719"
     }
   },
   {
     "image": "team-01.jpg",
     "name": "Dikshya Sharma",
     "social": {
-      "instagram": "",
-      "facebook": "",
-      "linkedin": ""
+      "instagram": "https://www.instagram.com/dikshyyyyyyeeeeee/",
+      "facebook": "https://www.facebook.com/kandeldikshya398?mibextid=JRoKGi",
+      "linkedin": "https://www.linkedin.com/in/dikshya-kandel-773b06237/",
+      "github": "https://github.com/dikshya22"
     }
   },
   {
     "image": "team-02.jpg",
     "name": "Saroj Japrel",
     "social": {
-      "instagram": "",
-      "facebook": "",
-      "linkedin": ""
+      "instagram": "https://www.instagram.com/experiencewithsaroj/",
+      "facebook": "https://www.facebook.com/profile.php?id=100069363078432&mibextid=ZbWKwL",
+      "linkedin": "https://www.linkedin.com/in/saroj-japrel-76198b261/",
+      "github": "https://github.com/sarojjaprel07"
     }
   },
   {
     "image": "team-03.png",
     "name": "Ankit Dawadi",
     "social": {
-      "instagram": "",
-      "facebook": "",
-      "linkedin": ""
+      "instagram": "https://www.instagram.com/ankitdawadi16/",
+      "facebook": "https://www.facebook.com/ankitdawadi16",
+      "linkedin": "https://www.linkedin.com/in/eazyankit/",
+      "github": "https://github.com/ankittet"
     }
   },
   {
@@ -50,7 +55,8 @@
     "social": {
       "instagram": "",
       "facebook": "",
-      "linkedin": ""
+      "linkedin": "",
+      "github": ""
     }
   }
 ]
