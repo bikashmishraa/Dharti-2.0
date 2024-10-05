@@ -13,9 +13,7 @@ const Layout = () => {
     <>
       <main className="size-full min-h-screen">
         <Header />
-        <div className="py-14 max-w-2xl space-y-5 md:space-y-7 px-5 mx-auto">
-          <Outlet />
-        </div>
+        <Outlet />
       </main>
     </>
   );

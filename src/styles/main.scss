@@ -2,7 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './common/base.scss';
-@import './common/utils.scss';
+@layer base {
+  *,
+  *::before,
+  *::after {
+    transition: all 130ms linear;
+    @apply m-0 p-0 box-border;
+  }
 
-@import './components/header.scss';
+  body {
+    @apply dark:bg-slate-900;
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+}
+
+.hero-bg {
+  background-image: url("../assets/hero-bg.jpg");
+}
