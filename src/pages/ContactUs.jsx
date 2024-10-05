@@ -1,55 +1,97 @@
-import React from "react";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdMail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const ContactUs = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
-    <>
-      <div className="section-wrapper hero bg-base-200 min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Login now!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
+    <section className="section-wrapper">
+      <div className="flex-center md:max-w-2xl">
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="space-y-5">
+            <div className="space-y-3 text-neutral-content">
+              <h2 className="text-3xl font-semibold">Contact Us</h2>
+              <p className="text-lg">
+                Get in touch with us for any inquiries or support. We're here to
+                help and would love to hear from you."
+              </p>
+            </div>
+            <ul className="contact-list text-neutral-content">
+              <li>
+                <span>
+                  <FaLocationDot />
+                </span>
+                Kathmandu, Nepal
+              </li>
+              <li>
+                <span>
+                  <MdMail />
+                </span>
+                <a href="mailto:bikash.mishra2079@gmail.com">
+                  bikash.mishra2079@gmail.com
+                </a>
+              </li>
+              <li>
+                <span>
+                  <FaPhoneAlt />
+                </span>
+                <a href="tel:+9779823659360">+977 9823659360</a>
+              </li>
+            </ul>
           </div>
-          <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-            <form className="card-body">
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Email</span>
-                </label>
-                <input
-                  type="email"
-                  placeholder="email"
-                  className="input input-bordered"
-                  required
-                />
+
+          <form
+            className="space-y-1 max-w-md md:ml-auto w-full"
+            onSubmit={handleSubmit}
+          >
+            <label className="form-control w-full">
+              <div className="label">
+                <span className="label-text text-neutral-content font-medium">
+                  Name
+                </span>
               </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Password</span>
-                </label>
-                <input
-                  type="password"
-                  placeholder="password"
-                  className="input input-bordered"
-                  required
-                />
-                <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
-                    Forgot password?
-                  </a>
-                </label>
+              <input
+                type="text"
+                placeholder="Enter you name"
+                className="input input-bordered w-full"
+              />
+            </label>
+            <label className="form-control w-full">
+              <div className="label">
+                <span className="label-text text-neutral-content font-medium">
+                  Email
+                </span>
               </div>
-              <div className="form-control mt-6">
-                <button className="btn btn-primary">Login</button>
+              <input
+                type="email"
+                placeholder="Enter you email"
+                className="input input-bordered w-full"
+              />
+            </label>
+            <label className="form-control w-full pb-3">
+              <div className="label">
+                <span className="label-text text-neutral-content font-medium">
+                  Message
+                </span>
               </div>
-            </form>
-          </div>
+              <textarea
+                className="textarea textarea-bordered h-24 "
+                placeholder="Enter your message"
+              ></textarea>
+            </label>
+            <button
+              type="submit"
+              className="btn btn-primary text-[white] cursor-pointer"
+            >
+              Submit
+            </button>
+          </form>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
