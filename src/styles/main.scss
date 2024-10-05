@@ -2,29 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  *,
-  *::before,
-  *::after {
-    transition: all 130ms linear;
-    @apply m-0 p-0 box-border;
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-primary border-none hover:bg-opacity-90 hover:scale-105;
   }
-
-  body {
-    @apply dark:bg-slate-900;
-  }
-}
-
-@layer utilities {
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
-
-  .flex-between {
-    @apply flex justify-between items-center;
-  }
-}
-
-.hero-bg {
-  background-image: url("../assets/hero-bg.jpg");
 }
