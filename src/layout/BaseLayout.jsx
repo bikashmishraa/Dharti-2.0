@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 
@@ -14,6 +15,7 @@ const Layout = () => {
       <main className="size-full min-h-screen">
         <Header />
         <Outlet />
+        <Footer />
       </main>
     </>
   );
