@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./base.scss";
+@import "./components.scss";
+@import "./utils.scss";
+
 @layer components {
   .btn-primary {
     @apply bg-primary hover:bg-primary border-none hover:bg-opacity-90 hover:scale-105;
