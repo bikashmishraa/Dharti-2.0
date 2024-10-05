@@ -1,5 +1,12 @@
 import BaseLayout from "@/layout/BaseLayout";
-import { Home, About, NotFound, ContactUs, Team } from "@/pages";
+import {
+  Home,
+  About,
+  NotFound,
+  ContactUs,
+  Team,
+  DataVisualization,
+} from "@/pages";
 
 import {
   createBrowserRouter,
