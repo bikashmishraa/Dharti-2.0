@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex-1">
         <a className="btn btn-ghost text-3xl font-semibold">Dharti</a>
       </div>
-      <div className="flex-none">
+      <div className="flex-none px-[20px]">
         <ul className="menu menu-horizontal text-base px-1">
           <li>
             <a>Home</a>
@@ -21,7 +21,7 @@ const Header = () => {
             <a>Team</a>
           </li>
           <li>
-            <a>Contact Us</a>
+            <a href="">Contact Us</a>
           </li>
         </ul>
       </div>
