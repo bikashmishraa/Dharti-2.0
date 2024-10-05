@@ -1,5 +1,5 @@
 const DataVisualization = () => {
-  return <div>DataVisualization</div>;
+  return <section className="section-wrapper">DataVisualization</section>;
 };
 
 export default DataVisualization;
