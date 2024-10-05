@@ -1,5 +1,12 @@
 import BaseLayout from "@/layout/BaseLayout";
-import { Home, About, NotFound, ContactUs, Team } from "@/pages";
+import {
+  Home,
+  About,
+  NotFound,
+  ContactUs,
+  Team,
+  DataVisualization,
+} from "@/pages";
 
 import {
   createBrowserRouter,
@@ -15,6 +22,7 @@ const router = createBrowserRouter(
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/data-visualization" element={<DataVisualization />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </>

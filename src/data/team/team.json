@@ -1,0 +1,56 @@
+[
+  {
+    "image": "team-06.jpg",
+    "name": "Bikash Chandra Mishra",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "image": "team-05.jpg",
+    "name": "Dhirendra Pd. Upadhyay",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "image": "team-01.jpg",
+    "name": "Dikshya Sharma",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "image": "team-02",
+    "name": "Saroj Japrel",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "image": "team-03.jpg",
+    "name": "Ankit Dawadi",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "image": "team-04.jpg",
+    "name": "Sijal Manandhar",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "linkedin": ""
+    }
+  }
+]

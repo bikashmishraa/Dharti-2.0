@@ -1,51 +1,30 @@
-import React from "react";
+import teamData from "../data/team/team.json";
 
 const Team = () => {
   return (
-    <div className="carousel rounded-box px-2">
-      <div className="carousel-item">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-          alt="Burger"
-        />
+    <section className="w-full h-screen flex-center px-2">
+      <div className="space-y-6">
+        <div className="space-y-3">
+          <h2 className="text-3xl font-semibold">Team behind Dharti</h2>
+          <p>
+            Our team is a group of skilled professionals working together to
+            deliver innovative solutions and turn ideas into reality.
+          </p>
+        </div>
+        <div>
+          <div className="grid grid-cols-2 md:grid-cols-3">
+            {teamData.map((team, idx) => (
+              <div key={idx} className="">
+                <div className="">
+                  <img src={`/${team.image}`} alt="" className="size-9" />
+                </div>
+                <h3>{team.name}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="carousel-item">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-          alt="Burger"
-        />
-      </div>
-      <div className="carousel-item">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-          alt="Burger"
-        />
-      </div>
-      <div className="carousel-item">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-          alt="Burger"
-        />
-      </div>
-      <div className="carousel-item">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-          alt="Burger"
-        />
-      </div>
-      <div className="carousel-item">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-          alt="Burger"
-        />
-      </div>
-      <div className="carousel-item">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-          alt="Burger"
-        />
-      </div>
-    </div>
+    </section>
   );
 };
 
