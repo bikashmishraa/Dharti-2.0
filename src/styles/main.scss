@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+
+.kumar-one-outline-regular {
+  font-family: "Kumar One Outline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @layer components {
   .btn-primary {
