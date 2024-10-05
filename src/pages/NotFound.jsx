@@ -1,7 +1,7 @@
 import React from "react";
 
 const NotFound = () => {
-  return <div>NotFound</div>;
+  return <section className="section-wrapper">NotFound</section>;
 };
 
 export default NotFound;
