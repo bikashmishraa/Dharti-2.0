@@ -55,7 +55,7 @@ const ContactUs = () => {
               </div>
               <input
                 type="text"
-                placeholder="Enter you name"
+                placeholder="Enter your name"
                 className="input input-bordered w-full"
               />
             </label>
@@ -67,7 +67,7 @@ const ContactUs = () => {
               </div>
               <input
                 type="email"
-                placeholder="Enter you email"
+                placeholder="Enter your email"
                 className="input input-bordered w-full"
               />
             </label>

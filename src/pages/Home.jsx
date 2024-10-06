@@ -22,9 +22,9 @@ const Home = () => {
           <div className="max-w-md space-y-6">
             <h1 className="text-5xl font-bold">WELCOME TO DHARTI 2.0</h1>
             <p>
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Explore our dynamic orrery! Track real-time Near-Earth Objects
+              like satellites, meteors, and asteroids as they orbit nearby.
+              Discover and visualize their paths with ease.
             </p>
 
             <a
