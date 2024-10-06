@@ -1,4 +1,4 @@
-import NotebookViewer from "../components/NotebookViewer";
+import NotebookViewer from "../components/JupyterEmbed";
 
 const DataVisualization = () => {
   return (

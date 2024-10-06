@@ -5,3 +5,10 @@ export const NAV_LINKS = [
   { title: "team", ref: "/team" },
   { title: "contact us", ref: "/contact" },
 ];
+
+export const FOOTER_LINKS = [
+  {title: "", ref: "/"},
+  {title: "", ref: "/"},
+  {title: "", ref: "/"},
+  {title: "", ref: "/"},
+]
