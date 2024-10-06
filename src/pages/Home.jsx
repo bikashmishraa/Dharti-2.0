@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import HomeBg from "@/assets/home-bg.mp4";
+import ContactUs from "./ContactUs";
+import DataVisualization from "./DataVisualization";
+import About from "./About";
+import Team from "./Team";
 
 const Home = () => {
   return (
@@ -33,6 +37,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <DataVisualization />
+      <About />
+      <Team />
+      <ContactUs />
     </>
   );
 };
