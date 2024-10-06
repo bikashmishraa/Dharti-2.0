@@ -29,11 +29,13 @@ const Home = () => {
               et a id nisi.
             </p>
 
-            <Link to="/about" className="inline-block">
-              <button className="btn btn-primary text-[white]">
-                Learn More
-              </button>
-            </Link>
+            <a
+              href="https://dharti-project.vercel.app/"
+              className="inline-block"
+              target="_blank"
+            >
+              <button className="btn btn-primary text-[white]">Explore</button>
+            </a>
           </div>
         </div>
       </section>
