@@ -24,7 +24,10 @@ const Header = () => {
       }`}
     >
       <div className="flex-1">
-        <Link to={"/"} className="btn btn-ghost text-3xl font-semibold">
+        <Link
+          to={"/"}
+          className="btn btn-ghost text-3xl font-medium font-logo uppercase"
+        >
           Dharti
         </Link>
       </div>
