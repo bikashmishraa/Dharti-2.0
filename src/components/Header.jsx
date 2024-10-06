@@ -19,29 +19,30 @@ const Header = () => {
 
   return (
     <div
-      className={`navbar bg-primary text-neutral-content fixed z-10 transition ${
-        scrollY < 120 ? "bg-opacity-10" : "bg-opacity-80"
+      className={`navbar bg-primary text-neutral-content fixed z-10 transition shadow-md ${
+        scrollY < 120 ? "bg-opacity-10" : "bg-opacity-95"
       }`}
     >
       <div className="flex-1">
         <Link
           to={"/"}
-          className="btn btn-ghost text-3xl font-medium font-logo uppercase"
+          className="btn btn-ghost text-4xl font-semibold font-logo uppercase"
         >
           Dharti
         </Link>
       </div>
-      <div className="flex-none px-[20px]">
-        <ul className="menu menu-horizontal text-base px-1">
-          {NAV_LINKS.map((link, idx) => (
-            <li key={idx} className="capitalize">
-              <Link to={link.ref} className="focus:text-neutral-content">
-                {link.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <ul className="flex gap-5 pr-10">
+        {NAV_LINKS.map((link, idx) => (
+          <li
+            key={idx}
+            className="relative capitalize font-navLinks text-2xl hover: after:content-[''] after:w-0 after:h-0.5 after:bg-neutral-content after:-bottom-0.5 after:left-0 after:rounded-full after:absolute hover:after:w-full"
+          >
+            <Link to={link.ref} className="focus:text-neutral-content">
+              {link.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

@@ -9,6 +9,7 @@ export default {
       },
       fontFamily: {
         logo: ["Modern Antiqua", "serif"],
+        navLinks: ["Katibeh", "serif"],
       },
     },
   },
