@@ -28,7 +28,7 @@ const Home = () => {
             </p>
 
             <a
-              href="https://dharti-project.vercel.app/"
+              href="https://earth-dharti.vercel.app/"
               className="inline-block"
               target="_blank"
             >
