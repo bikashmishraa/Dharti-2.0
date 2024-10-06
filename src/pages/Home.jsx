@@ -21,7 +21,7 @@ const Home = () => {
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md space-y-6">
             <h1 className="text-5xl font-bold">
-              Welcome to <br /> Dharti-2.0
+              WELCOME TO DHARTI 2.0 
             </h1>
             <p>
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
