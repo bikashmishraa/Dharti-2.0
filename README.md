@@ -1,8 +1,36 @@
-# React + Vite
+# Welcome to project Dharti-2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](image.png)
 
-Currently, two official plugins are available:
+# About Project
+- `` we developed a 3D model to interact with the live data of satellite hovering its live data and Data Visualization of data from Nasa  ``
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to use the model
+
+```
+git clone https://github.com/bikashmishraa/Dharti-2.0.git
+```
+
+```
+cd project_Dharti
+```
+
+```
+npm run dev
+```
+
+# Visualized Data
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+
+# Our Teams
+
+![alt text](image-3.png)
+
+# NEO's data
+_Complex Dynamic Neo's datas_
+
+![alt text](image-4.png)
