@@ -16,7 +16,7 @@ const ContactUs = () => {
               <h2 className="text-3xl font-semibold">Contact Us</h2>
               <p className="text-lg">
                 Get in touch with us for any inquiries or support. We're here to
-                help and would love to hear from you."
+                help and would love to hear from you.
               </p>
             </div>
             <ul className="contact-list text-neutral-content">
