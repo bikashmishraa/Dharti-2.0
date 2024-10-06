@@ -20,9 +20,7 @@ const Home = () => {
 
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md space-y-6">
-            <h1 className="text-5xl font-bold">
-              WELCOME TO DHARTI 2.0 
-            </h1>
+            <h1 className="text-5xl font-bold">WELCOME TO DHARTI 2.0</h1>
             <p>
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
@@ -34,7 +32,9 @@ const Home = () => {
               className="inline-block"
               target="_blank"
             >
-              <button className="btn btn-primary text-[white]">Explore</button>
+              <button className="btn btn-primary text-[white] px-9 py-3">
+                Explore
+              </button>
             </a>
           </div>
         </div>
