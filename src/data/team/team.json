@@ -17,7 +17,6 @@
       "facebook": "https://www.facebook.com/dhirendra.upadhyay.9210",
       "linkedin": "https://www.linkedin.com/in/dhirendra-upadhyay-311a28316/",
       "github": "https://github.com/Dhirendra719"
-
     }
   },
   {
@@ -38,7 +37,6 @@
       "facebook": "https://www.facebook.com/profile.php?id=100069363078432&mibextid=ZbWKwL",
       "linkedin": "https://www.linkedin.com/in/saroj-japrel-76198b261/",
       "github": "https://github.com/sarojjaprel07"
-
     }
   },
   {
@@ -55,10 +53,10 @@
     "image": "team-04.jpg",
     "name": "Sijal Manandhar",
     "social": {
-      "instagram": "",
-      "facebook": "",
+      "instagram": "https://www.facebook.com/http.sijal/",
+      "facebook": "https://www.facebook.com/http.sijal/",
       "linkedin": "",
-      "github": ""
+      "github": "https://github.com/sam4web/"
     }
   }
 ]
